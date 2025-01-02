@@ -1,5 +1,5 @@
 # 2025_Winter_Machine_Learning_Study
-
+2025 Winter Machine Learning Study
 ## 스터디 목표
 - 3학년 전공필수 수업 **<기계학습>** 미리 공부해보기
 - 머신러닝에 대한 흥미도 높이기
