@@ -100,6 +100,7 @@
 - 대체 과제 : **결석 회차 기준 2주 내**로 github 대체과제 폴더에 제출
 	- 챕터 첫 번째 수업 : 수업팀 발표 내용 요약 10줄 이상 작성
 	- 챕터 두 번째 수업 : 스터디 시간에 푼 문제 직접 풀어보고 풀이과정 및 해설 작성
+   	- 제출 형식 : `N회차_대체과제_N팀_김마클.md`
 - 결석사유서 : **결석하는 스터디 회차의 전 날까지** 운영위원에게 제출(smarcle2024@gmail.com) <br>
 [동아리 결석 사유서.hwpx](https://github.com/sejongsmarcle/2025_Winter_Machine_Learning_Study/blob/main/%EB%8F%99%EC%95%84%EB%A6%AC%20%EA%B2%B0%EC%84%9D%20%EC%82%AC%EC%9C%A0%EC%84%9C.hwpx) <br>
 [동아리 결석 사유서.docx](https://github.com/sejongsmarcle/2025_Winter_Machine_Learning_Study/blob/main/%EB%8F%99%EC%95%84%EB%A6%AC%20%EA%B2%B0%EC%84%9D%20%EC%82%AC%EC%9C%A0%EC%84%9C_word%EC%9A%A9.docx)
