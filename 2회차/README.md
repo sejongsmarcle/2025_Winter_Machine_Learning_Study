@@ -56,24 +56,19 @@
   from sklearn.neighbors import KNeighborsRegressor
 
   knr = KNeighborsRegressor()
-  # k-최근접 이웃 회귀 모델을 훈련합니다
   knr.fit(train_input, train_target)
 
   knr.score(test_input, test_target)
 
   from sklearn.metrics import mean_absolute_error
 
-  # 테스트 세트에 대한 예측을 만듭니다
   test_prediction = knr.predict(test_input)
-  # 테스트 세트에 대한 평균 절댓값 오차를 계산합니다
   mae = mean_absolute_error(test_target, test_prediction)
   print(mae)
 
   print(knr.score(train_input, train_target))
 
-  # 이웃의 갯수를 3으로 설정합니다
   knr.n_neighbors = 3
-  # 모델을 다시 훈련합니다
   knr.fit(train_input, train_target)
   print(knr.score(train_input, train_target))
 
@@ -103,31 +98,24 @@
 
   from sklearn.model_selection import train_test_split
 
-  # 훈련 세트와 테스트 세트로 나눕니다
   train_input, test_input, train_target, test_target = train_test_split(
       perch_length, perch_weight, random_state=42)
-  # 훈련 세트와 테스트 세트를 2차원 배열로 바꿉니다
   train_input = train_input.reshape(-1, 1)
   test_input = test_input.reshape(-1, 1)
 
   from sklearn.neighbors import KNeighborsRegressor
 
   knr = KNeighborsRegressor(n_neighbors=3)
-  # k-최근접 이웃 회귀 모델을 훈련합니다
   knr.fit(train_input, train_target)
 
   print(knr.predict([[50]]))
 
   import matplotlib.pyplot as plt
 
-  # 50cm 농어의 이웃을 구합니다
   distances, indexes = knr.kneighbors([[50]])
 
-  # 훈련 세트의 산점도를 그립니다
   plt.scatter(train_input, train_target)
-  # 훈련 세트 중에서 이웃 샘플만 다시 그립니다
   plt.scatter(train_input[indexes], train_target[indexes], marker='D')
-  # 50cm 농어 데이터
   plt.scatter(50, 1033, marker='^')
   plt.xlabel('length')
   plt.ylabel('weight')
@@ -137,14 +125,10 @@
 
   print(knr.predict([[100]]))
 
-  # 100cm 농어의 이웃을 구합니다
   distances, indexes = knr.kneighbors([[100]])
 
-  # 훈련 세트의 산점도를 그립니다
   plt.scatter(train_input, train_target)
-  # 훈련 세트 중에서 이웃 샘플만 다시 그립니다
   plt.scatter(train_input[indexes], train_target[indexes], marker='D')
-  # 100cm 농어 데이터
   plt.scatter(100, 1033, marker='^')
   plt.xlabel('length')
   plt.ylabel('weight')
@@ -153,19 +137,14 @@
   from sklearn.linear_model import LinearRegression
 
   lr = LinearRegression()
-  # 선형 회귀 모델 훈련
   lr.fit(train_input, train_target)
 
-  # 50cm 농어에 대한 예측
   print(lr.predict([[50]]))
 
   print(lr.coef_, lr.intercept_)
 
-  # 훈련 세트의 산점도를 그립니다
   plt.scatter(train_input, train_target)
-  # 15에서 50까지 1차 방정식 그래프를 그립니다
   plt.plot([15, 50], [15*lr.coef_+lr.intercept_, 50*lr.coef_+lr.intercept_])
-  # 50cm 농어 데이터
   plt.scatter(50, 1241.8, marker='^')
   plt.xlabel('length')
   plt.ylabel('weight')
@@ -186,13 +165,9 @@
 
   print(lr.coef_, lr.intercept_)
 
-  # 구간별 직선을 그리기 위해 15에서 49까지 정수 배열을 만듭니다
 point = np.arange(15, 50)
-# 훈련 세트의 산점도를 그립니다
 plt.scatter(train_input, train_target)
-# 15에서 49까지 2차 방정식 그래프를 그립니다
 plt.plot(point, 1.01*point**2 - 21.6*point + 116.05)
-# 50cm 농어 데이터
 plt.scatter([50], [1574], marker='^')
 plt.xlabel('length')
 plt.ylabel('weight')
