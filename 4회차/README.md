@@ -4,7 +4,6 @@
 >🔗[4-1](https://bit.ly/4jmMBPm) <br>
  🔗[4-2](https://bit.ly/3C1fgsJ)
 
-</details>
 
 - **수업팀**
 	```python
