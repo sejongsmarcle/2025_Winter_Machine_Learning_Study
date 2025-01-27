@@ -60,11 +60,11 @@
 |:---:|:---:|:---:|:---:|:---:|
 |0|25.01.03|OT||[바로가기](https://youtu.be/vU8i90jiOko)|
 |1|25.01.06|Ch.1,2|운영진|[바로가기](https://youtu.be/gveAPHhc8u0)|
-|2|25.01.10|[문제 풀이](https://smarcle.notion.site/1-10-b6c8cbd7a5854e3197ca920dbb91e73a)|||
-|3|25.01.13|Ch.3|운영진||
-|4|25.01.17|[문제 풀이](https://www.notion.so/1-17-17d3f89a4b238078b6e3cf3d06b0b7d3)|||
-|5|25.01.20|Ch.4|1팀||
-|6|25.01.24|[문제 풀이](https://smarcle.notion.site/1-24-c457d120cc9440ce9aef492787d7b379)|||
+|2|25.01.10|[문제 풀이](https://smarcle.notion.site/1-10-b6c8cbd7a5854e3197ca920dbb91e73a)||[바로가기](https://youtu.be/ZvsStZdWrmg)|
+|3|25.01.13|Ch.3|운영진|[바로가기](https://youtu.be/Alx1FmJXEkU)|
+|4|25.01.17|[문제 풀이](https://www.notion.so/1-17-17d3f89a4b238078b6e3cf3d06b0b7d3)||[바로가기](https://youtu.be/-tkuKi6zzp8)|
+|5|25.01.20|Ch.4|1팀|[바로가기](https://youtu.be/IbL3D7pckKE)|
+|6|25.01.24|[문제 풀이](https://smarcle.notion.site/1-24-c457d120cc9440ce9aef492787d7b379)||[바로가기](https://youtu.be/rbpPnHvzo-A)|
 ||25.01.27|휴식|||
 |7|25.01.31|Ch.5|3팀||
 |8|25.02.03|문제 풀이|||
