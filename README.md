@@ -66,10 +66,10 @@
 |5|25.01.20|Ch.4|1팀|[바로가기](https://youtu.be/IbL3D7pckKE)|
 |6|25.01.24|[문제 풀이](https://smarcle.notion.site/1-24-c457d120cc9440ce9aef492787d7b379)||[바로가기](https://youtu.be/rbpPnHvzo-A)|
 ||25.01.27|휴식|||
-|7|25.01.31|Ch.5|3팀||
-|8|25.02.03|[문제 풀이](https://burnt-stetson-e35.notion.site/2-3-18ccf6122e8480de8b5ee48bfb59fae1?pvs=4)|||
-|9|25.02.07|Ch.6|2팀||
-|10|25.02.10|[문제 풀이](https://smarcle.notion.site/2-10-195daed55dc380829471eb867798ed93)|||
+|7|25.01.31|Ch.5|3팀|[바로가기](https://youtu.be/AGmANHnKDNo)|
+|8|25.02.03|[문제 풀이](https://burnt-stetson-e35.notion.site/2-3-18ccf6122e8480de8b5ee48bfb59fae1?pvs=4)||[바로가기](https://youtu.be/tqlJuC09NH0)|
+|9|25.02.07|Ch.6|2팀|[바로가기](https://youtu.be/iYo4cNjy_KI)|
+|10|25.02.10|[문제 풀이](https://smarcle.notion.site/2-10-195daed55dc380829471eb867798ed93)||[바로가기](https://youtu.be/MmD5LjNADRU)|
 |11|25.02.14|프로젝트(수업x)|||
 |12|25.02.17|프로젝트 발표|||
 
